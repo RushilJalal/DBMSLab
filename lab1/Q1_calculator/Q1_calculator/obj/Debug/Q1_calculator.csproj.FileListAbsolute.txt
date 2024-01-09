@@ -1,0 +1,9 @@
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\bin\Debug\Q1_calculator.exe.config
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\bin\Debug\Q1_calculator.exe
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\bin\Debug\Q1_calculator.pdb
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.Form1.resources
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.Properties.Resources.resources
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.csproj.GenerateResource.Cache
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.exe
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.pdb
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.csprojResolveAssemblyReference.cache
