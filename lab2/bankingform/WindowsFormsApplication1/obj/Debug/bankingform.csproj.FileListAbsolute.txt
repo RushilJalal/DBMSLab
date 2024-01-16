@@ -1,0 +1,10 @@
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\obj\Debug\bankingform.csprojResolveAssemblyReference.cache
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\obj\Debug\bankingform.csproj.GenerateResource.Cache
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

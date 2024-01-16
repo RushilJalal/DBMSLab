@@ -1,0 +1,2 @@
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankingform\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
