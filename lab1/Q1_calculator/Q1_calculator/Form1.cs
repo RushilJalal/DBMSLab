@@ -249,8 +249,8 @@ namespace Q1_calculator
 
         private void button16_Click(object sender, EventArgs e)
         {
-            int num;
-            int.TryParse(textBox1.Text, out num);
+            double num;
+            double.TryParse(textBox1.Text, out num);
             textBox1.Text = Math.Log(num).ToString();
         }
 
@@ -263,17 +263,17 @@ namespace Q1_calculator
 
         private void button17_Click(object sender, EventArgs e)
         {
-            int num;
-            int.TryParse(textBox1.Text, out num);
+            double num;
+            double.TryParse(textBox1.Text, out num);
             num *= num;
             textBox1.Text = num.ToString();
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            int num;
-            int.TryParse(textBox1.Text, out num);
-            textBox1.Text = Math.Cos(num).ToString();
+            double num;
+            double.TryParse(textBox1.Text, out num);
+            textBox1.Text = Math.Cos(num * (Math.PI / 180).ToString();
         }
 
         private void button21_Click(object sender, EventArgs e)
