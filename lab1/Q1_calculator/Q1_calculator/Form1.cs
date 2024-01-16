@@ -31,13 +31,13 @@ namespace Q1_calculator
         {
             if (c == 0)
             {
-                str1 = "0";
-                textBox1.Text += str1;
+                str1 += "0";
+                textBox1.Text = str1;
             }
             else
             {
-                str2 = "0";
-                textBox1.Text += str2;
+                str2 += "0";
+                textBox1.Text = str1 + opr + str2;
             }
         }
 
@@ -52,13 +52,13 @@ namespace Q1_calculator
         {
             if (c == 0)
             {
-                str1 = "7";
-                textBox1.Text += str1;
+                str1 += "7";
+                textBox1.Text = str1;
             }
             else
             {
-                str2 = "7";
-                textBox1.Text += str2;
+                str2 += "7";
+                textBox1.Text = str1 + opr + str2;
             }
         }
 
@@ -66,13 +66,13 @@ namespace Q1_calculator
         {
             if (c == 0)
             {
-                str1 = "1";
-                textBox1.Text += str1;
+                str1 += "1";
+                textBox1.Text = str1;
             }
             else
             {
-                str2 = "1";
-                textBox1.Text += str2;
+                str2 += "1";
+                textBox1.Text = str1 + opr + str2;
             }
 
         }
@@ -86,13 +86,13 @@ namespace Q1_calculator
         {
             if (c == 0)
             {
-                str1 = "2";
-                textBox1.Text += str1;
+                str1 += "2";
+                textBox1.Text = str1;
             }
             else
             {
-                str2 = "2";
-                textBox1.Text += str2;
+                str2 += "2";
+                textBox1.Text = str1 + opr + str2;
             }
         }
 
@@ -100,13 +100,13 @@ namespace Q1_calculator
         {
             if (c == 0)
             {
-                str1 = "3";
-                textBox1.Text += str1;
+                str1 += "3";
+                textBox1.Text = str1;
             }
             else
             {
-                str2 = "3";
-                textBox1.Text += str2;
+                str2 += "3";
+                textBox1.Text = str1 + opr + str2;
             }
         }
 
@@ -114,13 +114,13 @@ namespace Q1_calculator
         {
             if (c == 0)
             {
-                str1 = "4";
-                textBox1.Text += str1;
+                str1 += "4";
+                textBox1.Text = str1;
             }
             else
             {
-                str2 = "4";
-                textBox1.Text += str2;
+                str2 += "4";
+                textBox1.Text = str1 + opr + str2;
             }
         }
 
@@ -128,13 +128,13 @@ namespace Q1_calculator
         {
             if (c == 0)
             {
-                str1 = "5";
-                textBox1.Text += str1;
+                str1 += "5";
+                textBox1.Text = str1;
             }
             else
             {
-                str2 = "5";
-                textBox1.Text += str2;
+                    str2 += "5";
+                textBox1.Text = str1 + opr + str2;
             }
         }
 
@@ -142,13 +142,13 @@ namespace Q1_calculator
         {
             if (c == 0)
             {
-                str1 = "6";
-                textBox1.Text += str1;
+                str1 += "6";
+                textBox1.Text = str1;
             }
             else
             {
-                str2 = "6";
-                textBox1.Text += str2;
+                str2 += "6";
+                textBox1.Text = str1 + opr + str2;
             }
         }
 
@@ -156,13 +156,13 @@ namespace Q1_calculator
         {
             if (c == 0)
             {
-                str1 = "8";
-                textBox1.Text += str1;
+                str1 += "8";
+                textBox1.Text = str1;
             }
             else
             {
-                str2 = "8";
-                textBox1.Text += str2;
+                str2 += "8";
+                textBox1.Text = str1 + opr + str2;
             }
         }
 
@@ -170,13 +170,13 @@ namespace Q1_calculator
         {
             if (c == 0)
             {
-                str1 = "9";
-                textBox1.Text += str1;
+                str1 += "9";
+                textBox1.Text = str1;
             }
             else
             {
-                str2 = "9";
-                textBox1.Text += str2;
+                str2 += "9";
+                textBox1.Text = str1 + opr + str2;
             }
         }
 
@@ -185,38 +185,38 @@ namespace Q1_calculator
             double num1, num2;
             double.TryParse(str1, out num1);
             double.TryParse(str2, out num2);
+
             if (opr == '+')
             {
-            res = num1 + num2;
-            this.textBox1.Text = res.ToString();
+                res = num1 + num2;
             }
             else if (opr == '-')
             {
-            res = num1 - num2;
-            textBox1.Text = res.ToString();
+                res = num1 - num2;
             }
             else if (opr == '*')
             {
-            res = num1 * num2;
-            textBox1.Text = res.ToString();
+                res = num1 * num2;
             }
-
-
             else if (opr == '/')
             {
-            if (num2 != 0)
-            {
-            res = num1 / num2;
-            textBox1.Text = res.ToString();
+                if (num2 != 0)
+                {
+                    res = num1 / num2;
+                }
+                else
+                {
+                    textBox1.Text = "DIV/Zero!";
+                    return; // Exit the method to avoid further execution
+                }
             }
-            else
-            {
-            textBox1.Text = "DIV/Zero!";
-            }
-            }
-            str1 = res + "";
 
+            textBox1.Text = res.ToString();
+            str1 = res.ToString();
+            str2 = "";
+            c = 0;
         }
+
 
         private void button13_Click(object sender, EventArgs e)
         {
@@ -237,6 +237,57 @@ namespace Q1_calculator
             opr = '/';
             c++;
             textBox1.Text += opr;
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            double num;
+            double.TryParse(textBox1.Text, out num);
+            res = Math.Sin(num * (Math.PI / 180));
+            textBox1.Text = res.ToString();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            int num;
+            int.TryParse(textBox1.Text, out num);
+            textBox1.Text = Math.Log(num).ToString();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = null;
+            str1 = "";
+            str2 = "";
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            int num;
+            int.TryParse(textBox1.Text, out num);
+            num *= num;
+            textBox1.Text = num.ToString();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            int num;
+            int.TryParse(textBox1.Text, out num);
+            textBox1.Text = Math.Cos(num).ToString();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            if (c == 0)
+            {
+                str1 += ".";
+                textBox1.Text = str1;
+            }
+            else
+            {
+                str2 += ".";
+                textBox1.Text = str1 + opr + str2;
+            }
         }
     }
 }

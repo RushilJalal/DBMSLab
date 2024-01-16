@@ -7,3 +7,13 @@ C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator
 C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.exe
 C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.pdb
 C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.csprojResolveAssemblyReference.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\Q1_calculator\Q1_calculator\bin\Debug\Q1_calculator.exe.config
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\Q1_calculator\Q1_calculator\bin\Debug\Q1_calculator.exe
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\Q1_calculator\Q1_calculator\bin\Debug\Q1_calculator.pdb
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.csproj.AssemblyReference.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.Form1.resources
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.Properties.Resources.resources
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.csproj.GenerateResource.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.csproj.CoreCompileInputs.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.exe
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\Q1_calculator\Q1_calculator\obj\Debug\Q1_calculator.pdb
