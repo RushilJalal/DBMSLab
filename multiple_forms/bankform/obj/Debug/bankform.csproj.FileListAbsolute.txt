@@ -1,0 +1,10 @@
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankform\bankform\bin\Debug\bankform.exe.config
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankform\bankform\bin\Debug\bankform.exe
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankform\bankform\bin\Debug\bankform.pdb
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankform\bankform\obj\Debug\bankform.Form1.resources
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankform\bankform\obj\Debug\bankform.Properties.Resources.resources
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankform\bankform\obj\Debug\bankform.csproj.GenerateResource.Cache
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankform\bankform\obj\Debug\bankform.exe
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankform\bankform\obj\Debug\bankform.pdb
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankform\bankform\obj\Debug\bankform.csprojResolveAssemblyReference.cache
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\bankform\bankform\obj\Debug\bankform.Form2.resources

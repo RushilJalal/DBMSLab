@@ -1,0 +1,8 @@
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\bin\Debug\notepad.exe.config
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\bin\Debug\notepad.exe
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\bin\Debug\notepad.pdb
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\obj\Debug\notepad.Form1.resources
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\obj\Debug\notepad.Properties.Resources.resources
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\obj\Debug\notepad.csproj.GenerateResource.Cache
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\obj\Debug\notepad.exe
+C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\obj\Debug\notepad.pdb
