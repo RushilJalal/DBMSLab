@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StudentFormQ2/1.0.0": {
+        "runtime": {
+          "StudentFormQ2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StudentFormQ2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

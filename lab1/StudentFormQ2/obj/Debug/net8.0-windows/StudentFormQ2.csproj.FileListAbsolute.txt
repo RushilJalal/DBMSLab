@@ -1,0 +1,17 @@
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\bin\Debug\net8.0-windows\StudentFormQ2.exe
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\bin\Debug\net8.0-windows\StudentFormQ2.deps.json
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\bin\Debug\net8.0-windows\StudentFormQ2.runtimeconfig.json
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\bin\Debug\net8.0-windows\StudentFormQ2.dll
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\bin\Debug\net8.0-windows\StudentFormQ2.pdb
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\StudentFormQ2.Form1.resources
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\StudentFormQ2.csproj.GenerateResource.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\StudentFormQ2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\StudentFormQ2.AssemblyInfoInputs.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\StudentFormQ2.AssemblyInfo.cs
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\StudentFormQ2.csproj.CoreCompileInputs.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\StudentFormQ2.sourcelink.json
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\StudentFormQ2.dll
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\refint\StudentFormQ2.dll
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\StudentFormQ2.pdb
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\StudentFormQ2.genruntimeconfig.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab1\StudentFormQ2\obj\Debug\net8.0-windows\ref\StudentFormQ2.dll
