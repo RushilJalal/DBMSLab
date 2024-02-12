@@ -182,9 +182,8 @@ namespace Q1_calculator
 
         private void button11_Click(object sender, EventArgs e)
         {
-            double num1, num2;
-            double.TryParse(str1, out num1);
-            double.TryParse(str2, out num2);
+            double.TryParse(str1, out double num1);
+            double.TryParse(str2, out double num2);
 
             if (opr == '+')
             {
@@ -241,16 +240,14 @@ namespace Q1_calculator
 
         private void button18_Click(object sender, EventArgs e)
         {
-            double num;
-            double.TryParse(textBox1.Text, out num);
+            double.TryParse(textBox1.Text, out double num);
             res = Math.Sin(num * (Math.PI / 180));
             textBox1.Text = res.ToString();
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            double num;
-            double.TryParse(textBox1.Text, out num);
+            double.TryParse(textBox1.Text, out double num);
             textBox1.Text = Math.Log(num).ToString();
         }
 
@@ -263,17 +260,16 @@ namespace Q1_calculator
 
         private void button17_Click(object sender, EventArgs e)
         {
-            double num;
-            double.TryParse(textBox1.Text, out num);
+            double.TryParse(textBox1.Text, out double num);
             num *= num;
             textBox1.Text = num.ToString();
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            double num;
-            double.TryParse(textBox1.Text, out num);
-            textBox1.Text = Math.Cos(num * (Math.PI / 180).ToString();
+            double.TryParse(textBox1.Text, out double num);
+            res = Math.Cos(num * (Math.PI / 180));
+            textBox1.Text = res.ToString();
         }
 
         private void button21_Click(object sender, EventArgs e)

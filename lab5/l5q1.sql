@@ -17,7 +17,7 @@ create table enroll(
   sem int,
   book_isbn int,
   foreign key(regno) references student,
-  foreign key(course#) references course
+  foreign key(course#) references course,
   foreign key(book_isbn) references text);
 
 create table book_adoption(
@@ -39,6 +39,8 @@ insert into student values(2, 'Suresh', 'IT', To_Date('2024/02/01', 'yyyy/mm/dd'
 insert into student values(3, 'Ben', 'CSE', To_Date('2024/01/03', 'yyyy/mm/dd'));
 insert into student values(4, 'Peter', 'CCE', To_Date('2023/11/11', 'yyyy/mm/dd'));
 insert into student values(5, 'Mary', 'Mechanical', To_Date('2023/12/12', 'yyyy/mm/dd'));
+insert into student values(6, 'Rushil', 'CCE', To_Date('2004/07/21', 'yyyy/mm/dd'));
+
 
 insert into course values(234, 'Python', 'Biotech');
 insert into course values(456, 'DAA', 'ICT');
@@ -55,8 +57,7 @@ insert into text values(1238, 'Book5', 'E', 'A5');
 insert into enroll values(1, 234, 1, 1234);
 insert into enroll values(2, 456, 2, 1235);
 insert into enroll values(3, 435435, 3, 1236);
-insert into enroll values(4, 45345, 4, 1237);
-insert into enroll values(5, 34534, 5, 1238);
+insert into enroll values(4, 45345, 3, 1237);
 
 insert into book_adoption values(234, 1, 1234);
 insert into book_adoption values(456, 2, 1235);
@@ -80,3 +81,9 @@ where dept in
 from course
 group by dept
 having count(*) > 1);
+
+-- d)
+select *
+    from student
+    where regno not in (select regno
+                        from enroll);
