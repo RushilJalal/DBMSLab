@@ -87,3 +87,19 @@ select *
     from student
     where regno not in (select regno
                         from enroll);
+
+-- q6.
+select booktitle from text 
+where book_isbn in (select book_isbn from enroll 
+where book_isbn in(select book_isbn from book_adoption));
+
+-- q8.
+select * 
+from student 
+where regno in 
+(select regno from student natural join enroll group by regno 
+having count(*)=(select max(count(*)) from student natural join enroll group by regno));
+
+-- q9. 
+with cnt(publisher, no) as (select publisher, count(*)  from text group by publisher)
+    select publisher, no as count from cnt;
