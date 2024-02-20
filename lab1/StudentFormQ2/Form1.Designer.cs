@@ -58,12 +58,13 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 10F);
-            label2.Location = new Point(64, 100);
+            label2.Font = new Font("Segoe UI", 15F);
+            label2.Location = new Point(64, 80);
             label2.Name = "label2";
-            label2.Size = new Size(100, 28);
+            label2.Size = new Size(151, 41);
             label2.TabIndex = 1;
             label2.Text = "Full Name";
+            label2.Click += label2_Click;
             // 
             // label3
             // 
@@ -97,7 +98,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(293, 100);
+            textBox1.Location = new Point(293, 90);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(315, 31);
             textBox1.TabIndex = 6;
@@ -106,7 +107,7 @@
             // radioButton1
             // 
             radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(236, 213);
+            radioButton1.Location = new Point(345, 213);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(75, 29);
             radioButton1.TabIndex = 7;
@@ -117,7 +118,7 @@
             // radioButton2
             // 
             radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(341, 214);
+            radioButton2.Location = new Point(467, 214);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(93, 29);
             radioButton2.TabIndex = 8;
@@ -137,17 +138,18 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(266, 276);
+            checkBox1.Location = new Point(307, 276);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(62, 29);
             checkBox1.TabIndex = 10;
             checkBox1.Text = "JEE";
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // checkBox2
             // 
             checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(353, 276);
+            checkBox2.Location = new Point(393, 276);
             checkBox2.Name = "checkBox2";
             checkBox2.Size = new Size(67, 29);
             checkBox2.TabIndex = 11;
@@ -157,7 +159,7 @@
             // checkBox3
             // 
             checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(426, 276);
+            checkBox3.Location = new Point(476, 276);
             checkBox3.Name = "checkBox3";
             checkBox3.Size = new Size(115, 29);
             checkBox3.TabIndex = 12;
