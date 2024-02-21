@@ -90,7 +90,7 @@ drop column name;
 
 --6
 alter table person
-add constraint check_id check(driver_id# is not null);
+add constraint check_no check(phone_number is not null);
 
 
 
