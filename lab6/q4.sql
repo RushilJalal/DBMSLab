@@ -14,6 +14,6 @@ BEGIN
 END DisplayTotalDamageByDriverAndYear;
 /
 -- BEGIN
---     DisplayTotalDamageByDriverAndYear('DriverID123', 2022); -- Replace 'DriverID123' and 2022 with the desired values
+--     DisplayTotalDamageByDriverAndYear('2', 2024);
 -- END;
 -- /

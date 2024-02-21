@@ -18,6 +18,6 @@ END DisplayAccidentInfoByLocation;
 /
 
 -- BEGIN
---     DisplayAccidentInfoByLocation('CityXYZ'); -- Replace 'CityXYZ' with the desired location
+--     DisplayAccidentInfoByLocation('Lucknow'); 
 -- END;
 -- /
