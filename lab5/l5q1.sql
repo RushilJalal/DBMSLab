@@ -73,6 +73,21 @@ where course# in (select course#
                     group by course#
                     having count(*) > 1);
 
+--b)
+SELECT DISTINCT c.dept
+FROM COURSE c
+WHERE NOT EXISTS (
+    SELECT DISTINCT b.publisher
+    FROM TEXT b
+    WHERE NOT EXISTS (
+        SELECT ba.book_isbn
+        FROM BOOK_ADOPTION ba
+        WHERE ba.course# = c.course#
+          AND ba.book_isbn = b.book_isbn
+    )
+);
+
+
 -- c)
 select name
 from student full outer join enroll using (regno) full outer join course using (course#);
@@ -88,18 +103,54 @@ select *
     where regno not in (select regno
                         from enroll);
 
--- q6.
-select booktitle from text 
-where book_isbn in (select book_isbn from enroll 
-where book_isbn in(select book_isbn from book_adoption));
+--e)
+SELECT DISTINCT c.dept
+FROM COURSE c
+WHERE NOT EXISTS (
+    SELECT DISTINCT b.publisher
+    FROM TEXT b
+    WHERE NOT EXISTS (
+        SELECT ba.book_isbn
+        FROM BOOK_ADOPTION ba
+        WHERE ba.course# = c.course#
+          AND ba.book_isbn = b.book_isbn
+    )
+);
 
--- q8.
-select * 
-from student 
-where regno in 
-(select regno from student natural join enroll group by regno 
-having count(*)=(select max(count(*)) from student natural join enroll group by regno));
+--f)
+SELECT DISTINCT t.booktitle
+FROM TEXT t
+JOIN BOOK_ADOPTION ba ON t.book_isbn = ba.book_isbn
+JOIN ENROLL e ON ba.course# = e.course# AND ba.book_isbn = e.book_isbn;
 
--- q9. 
-with cnt(publisher, no) as (select publisher, count(*)  from text group by publisher)
-    select publisher, no as count from cnt;
+--g)
+SELECT DISTINCT c.cname
+FROM COURSE c
+WHERE (SELECT COUNT(DISTINCT ba.book_isbn)
+       FROM BOOK_ADOPTION ba
+            JOIN TEXT t ON ba.book_isbn = t.book_isbn
+       WHERE c.course# = ba.course#
+         AND t.publisher = 'A') >= 2;
+
+--h)
+SELECT s.name
+FROM STUDENT s
+WHERE ROWNUM = 1 AND s.regno IN (
+    SELECT e.regno
+    FROM ENROLL e
+    GROUP BY e.regno
+    ORDER BY COUNT(DISTINCT e.book_isbn) DESC
+);
+
+--i)
+SELECT publisher, COUNT(*) AS num_books
+FROM TEXT
+GROUP BY publisher;
+
+--j)
+SELECT s.name
+FROM STUDENT s
+WHERE NOT EXISTS (
+    SELECT ba.book_isbn
+    FROM BOOK
+
