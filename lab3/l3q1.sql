@@ -44,6 +44,8 @@ insert into person values('2','Mary','Pune');
 insert into person values('3','Sasha','New York');
 insert into person values('4','Anaadhi','Delhi');
 insert into person values('5','Mongia','Delhi');
+insert into person values('6','Levine','Delhi');
+insert into person values('7', 'Shrey', 'Bangalore');
 
 insert into car values('A', 'model1',2000);
 insert into car values('B', 'model2',2001);
