@@ -63,7 +63,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(158, 317);
+            this.label3.Location = new System.Drawing.Point(159, 326);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(280, 37);
@@ -76,7 +76,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(261, 33);
+            this.textBox1.Size = new System.Drawing.Size(429, 33);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
@@ -85,7 +85,7 @@
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(261, 36);
+            this.textBox2.Size = new System.Drawing.Size(429, 36);
             this.textBox2.TabIndex = 4;
             // 
             // button1

@@ -121,6 +121,11 @@ namespace notepad
                 printDocument.Print();
             }
         }
-       }
+
+        private void formatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
 

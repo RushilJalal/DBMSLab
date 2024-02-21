@@ -6,3 +6,10 @@ C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\obj\Debug\n
 C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\obj\Debug\notepad.csproj.GenerateResource.Cache
 C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\obj\Debug\notepad.exe
 C:\Users\student.MIT-ICT-LAB5-01\Desktop\rushil\lab2\notepad\notepad\obj\Debug\notepad.pdb
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\notepad\notepad\obj\Debug\notepad.csproj.AssemblyReference.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\notepad\notepad\obj\Debug\notepad.Form1.resources
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\notepad\notepad\obj\Debug\notepad.Properties.Resources.resources
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\notepad\notepad\obj\Debug\notepad.csproj.GenerateResource.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\notepad\notepad\obj\Debug\notepad.csproj.CoreCompileInputs.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\notepad\notepad\obj\Debug\notepad.exe
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\notepad\notepad\obj\Debug\notepad.pdb
