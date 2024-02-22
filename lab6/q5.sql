@@ -1,3 +1,5 @@
+set serveroutput on;
+
 CREATE OR REPLACE PROCEDURE DisplayAccidentInfoByLocation(
     p_location IN VARCHAR2
 )
@@ -17,7 +19,7 @@ BEGIN
 END DisplayAccidentInfoByLocation;
 /
 
--- BEGIN
---     DisplayAccidentInfoByLocation('Lucknow'); 
--- END;
--- /
+BEGIN
+    DisplayAccidentInfoByLocation('Lucknow'); 
+END;
+/

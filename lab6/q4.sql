@@ -1,3 +1,4 @@
+set serveroutput on;
 CREATE OR REPLACE PROCEDURE DisplayTotalDamageByDriverAndYear(
     p_driver_id IN VARCHAR2,
     p_year IN INT
@@ -13,6 +14,7 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Total Damage for Driver ' || p_driver_id || ' in ' || p_year || ': ' || total_damage);
 END DisplayTotalDamageByDriverAndYear;
 /
+
 -- BEGIN
 --     DisplayTotalDamageByDriverAndYear('2', 2024);
 -- END;

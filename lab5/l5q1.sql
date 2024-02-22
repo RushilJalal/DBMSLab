@@ -152,5 +152,14 @@ SELECT s.name
 FROM STUDENT s
 WHERE NOT EXISTS (
     SELECT ba.book_isbn
-    FROM BOOK
+    FROM BOOK_ADOPTION ba
+    WHERE NOT EXISTS (
+        SELECT e.book_isbn
+        FROM ENROLL e
+        WHERE e.regno = s.regno
+          AND e.course# = ba.course#
+          AND e.book_isbn = ba.book_isbn
+    )
+);
+
 

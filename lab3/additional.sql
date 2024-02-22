@@ -75,3 +75,38 @@ INSERT INTO WAREHOUSE VALUES (3, 'City3');
 INSERT INTO WAREHOUSE VALUES (4, 'City4');
 INSERT INTO WAREHOUSE VALUES (5, 'City5');
 
+--a)
+SELECT
+    c.cname AS CUSTNAME,
+    COUNT(o.order#) AS "No. of Orders",
+    AVG(o.ordamt) AS AVG_ORDER_AMT
+FROM
+    CUSTOMER c
+    JOIN ORDERS o ON c.cust# = o.cust#
+GROUP BY
+    c.cname;
+
+--b)
+
+SELECT DISTINCT o.order#
+FROM
+    ORDERS o
+    JOIN SHIPMENT s ON o.order# = s.order#
+    JOIN WAREHOUSE w ON s.warehouse# = w.warehouse#
+WHERE
+    w.city = 'YourCity'; -- Replace 'YourCity' with the desired city
+
+--c)
+UPDATE ORDERS
+SET ordamt = 
+    CASE
+        WHEN EXISTS (
+            SELECT 1
+            FROM ORDER_ITEMS oi
+            WHERE oi.order# = ORDERS.order#
+              AND oi.qty > 10
+        ) THEN ordamt * 0.9
+        ELSE ordamt * 0.95
+    END;
+
+--d)

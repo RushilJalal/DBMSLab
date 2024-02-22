@@ -1,3 +1,5 @@
+set serveroutput on;
+
 CREATE OR REPLACE FUNCTION GetTotalAccidentsByYear(
     p_year IN INT
 ) RETURN INT
@@ -11,6 +13,7 @@ BEGIN
     RETURN total_accidents;
 END GetTotalAccidentsByYear;
 /
+
 
 -- DECLARE
 --     accidents_count INT;
