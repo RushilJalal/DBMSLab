@@ -108,5 +108,3 @@ SET ordamt =
         ) THEN ordamt * 0.9
         ELSE ordamt * 0.95
     END;
-
---d)
