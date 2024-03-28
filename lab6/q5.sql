@@ -19,7 +19,8 @@ BEGIN
 END DisplayAccidentInfoByLocation;
 /
 
-BEGIN
-    DisplayAccidentInfoByLocation('Lucknow'); 
-END;
-/
+   
+   
+   
+execute DisplayAccidentInfoByLocation('Lucknow'); 
+

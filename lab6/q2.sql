@@ -11,7 +11,7 @@ d_address varchar(50);
 d_id varchar(30); 
 
 begin
-select name, address, driver_id#
+select name, address, driver_id
 into d_name, d_address, d_id
 from person natural join participated;
 

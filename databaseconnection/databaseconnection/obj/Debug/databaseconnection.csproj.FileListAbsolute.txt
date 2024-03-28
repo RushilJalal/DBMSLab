@@ -1,0 +1,10 @@
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\bin\Debug\databaseconnection.exe.config
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\bin\Debug\databaseconnection.exe
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\bin\Debug\databaseconnection.pdb
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\bin\Debug\Oracle.DataAccess.dll
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\Debug\databaseconnection.csprojResolveAssemblyReference.cache
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\Debug\databaseconnection.Form1.resources
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\Debug\databaseconnection.Properties.Resources.resources
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\Debug\databaseconnection.csproj.GenerateResource.Cache
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\Debug\databaseconnection.exe
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\Debug\databaseconnection.pdb

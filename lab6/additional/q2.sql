@@ -10,11 +10,11 @@ accd_count number;
 driver_id varchar(30);
 
 begin
-driver_id := :new.driver_id#;
+driver_id := :NEW.driver_id;
 
 select count(*) into accd_count
 from participated
-where driver_id# = driver_id;
+where driver_id = driver_id;
 
 if accd_count = 2 then
 dbms_output.put_line('Alert: You have participated in 2 accidents!');

@@ -1,6 +1,7 @@
 -- Create a procedure to display 20% discount amount on each order provided order 
 -- has at least five items.
 
+set serveroutput on;
 CREATE OR REPLACE PROCEDURE apply_discount
 AS
 BEGIN
@@ -26,10 +27,9 @@ BEGIN
 END apply_discount;
 /
 
--- BEGIN
---     apply_discount;
--- END;
--- /
+
+execute apply_discount;
+
 
 
 

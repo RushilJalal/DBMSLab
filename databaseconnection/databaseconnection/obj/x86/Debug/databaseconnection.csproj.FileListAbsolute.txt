@@ -1,0 +1,9 @@
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\bin\x86\Debug\databaseconnection.exe.config
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\bin\x86\Debug\databaseconnection.exe
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\bin\x86\Debug\databaseconnection.pdb
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.csprojResolveAssemblyReference.cache
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.Form1.resources
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.Properties.Resources.resources
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.csproj.GenerateResource.Cache
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.exe
+C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.pdb

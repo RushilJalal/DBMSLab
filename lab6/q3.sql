@@ -15,10 +15,10 @@ END GetTotalAccidentsByYear;
 /
 
 
--- DECLARE
---     accidents_count INT;
--- BEGIN
---     accidents_count := GetTotalAccidentsByYear(2008);
---     DBMS_OUTPUT.PUT_LINE('Total Accidents in 2008: ' || accidents_count);
--- END;
--- /
+DECLARE
+    accidents_count INT;
+BEGIN
+    accidents_count := GetTotalAccidentsByYear(2008);
+    DBMS_OUTPUT.PUT_LINE('Total Accidents in 2008: ' || accidents_count);
+END;
+/
