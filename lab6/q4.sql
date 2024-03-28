@@ -16,6 +16,6 @@ END DisplayTotalDamageByDriverAndYear;
 /
 
 -- BEGIN
---     DisplayTotalDamageByDriverAndYear('2', 2024);
+--     execute DisplayTotalDamageByDriverAndYear('2', 2024);
 -- END;
 -- /

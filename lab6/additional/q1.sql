@@ -1,3 +1,5 @@
+-- Write a PL/SQL function to withdraw money from the bank account. 
+
 CREATE OR REPLACE FUNCTION withdraw_money(
     p_account_number IN VARCHAR2,
     p_withdrawal_amount IN NUMBER

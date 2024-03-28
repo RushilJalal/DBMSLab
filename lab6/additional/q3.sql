@@ -1,5 +1,8 @@
+-- Create a procedure to display 20% discount amount on each order provided order 
+-- has at least five items.
+
 CREATE OR REPLACE PROCEDURE apply_discount
-IS
+AS
 BEGIN
     FOR order_rec IN (SELECT order#, COUNT(item#) AS item_count
                      FROM order_items
