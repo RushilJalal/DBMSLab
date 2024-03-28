@@ -20,3 +20,7 @@ C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\bankingform\WindowsFormsApplica
 C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\bankingform\WindowsFormsApplication1\obj\Debug\bankingform.csproj.CoreCompileInputs.cache
 C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\bankingform\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\bankingform\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\bankingform\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.manifest
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\bankingform\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.application
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\bankingform\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe.manifest
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\lab2\bankingform\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.application
