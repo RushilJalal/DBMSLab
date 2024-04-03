@@ -7,3 +7,10 @@ C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\
 C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.csproj.GenerateResource.Cache
 C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.exe
 C:\Users\STUDENT\Desktop\DBMSLab-main\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.pdb
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.csproj.AssemblyReference.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.Form1.resources
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.Properties.Resources.resources
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.csproj.GenerateResource.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.csproj.CoreCompileInputs.cache
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.exe
+C:\Users\Farhat Jalal\Desktop\repos\DBMSLab\databaseconnection\databaseconnection\obj\x86\Debug\databaseconnection.pdb

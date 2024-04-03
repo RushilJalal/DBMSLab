@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Oracle.ManagedDataAccess.Client;
+using Oracle.DataAccess.Client;
 
 namespace databaseconnection
 {
@@ -26,7 +26,7 @@ namespace databaseconnection
 
         public void ConnectDB()
         {
-            conn = new OracleConnection("DATA SOURCE=172.16.54.24:1521/ictorcl;USER ID=cce458; PASSWORD=student");
+            conn = new OracleConnection("Data Source=localhost:1521;Persist Security Info=True;User ID=system;Password=1234");
             conn.Open();
             MessageBox.Show("Connected");
         }
@@ -148,6 +148,11 @@ namespace databaseconnection
                 }
             }
             conn.Close();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
